@@ -166,8 +166,8 @@ input:focus {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .panel-item {
@@ -175,7 +175,17 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto;
     font-size: 14px;
     font-weight: 500;
+}
+.category-text {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.panel-item img {
+    width: 64px;
+    height: 64px;
 }
