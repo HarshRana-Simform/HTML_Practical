@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    margin: 0 auto;
+    padding: 0 330px;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+.nav-logo {
+    margin: 20px;
+    height: 35px;
+    width: 85px;
+}
+
+.logo{
+    background-image: url(images/flipkart.png);
+    background-size: cover;
+    height: 20.11px;
+    width: 80px;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+
+}
+
+#first {
+    margin: 1px;
+    color: #f0f0f0;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#second {
+    margin: 1px;
+    color: #ffe500;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.hover-under {
+    display: flex;
+}
+.hover-under:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo-plus {
+    background-image: url(images/plus.png);
+    background-size: cover;
+    margin: 1px;
+    height: 10px;
+    width: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 580px;
+    height: 36px;
+}
+
+.search-input {
+    padding: 0px 16px;
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: Helvetica, Arial, sans-serif;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+.search-icon-button {
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #ffffff;
+    color: #2874f0;
+    border: none;
+}
+
+.search-icon-button:hover {
+    cursor: pointer;
+}
+
+.login-button {
+    margin: auto;
+    width: 123px;
+    height: 31px;
+    background-color: #ffffff;
+    color: #2874f0;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.more-options {
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.more-options:hover .rotate {
+    transform: rotate(180deg);
+    transition: transform .3s ease-in-out;
+}
+
+.rotate {
+    transition: transform .3s ease-in-out;
+}
+
+
+.seller{
+    display: inline;
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart {
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.category-panel {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
+}
+.panel-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.panel-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+}
