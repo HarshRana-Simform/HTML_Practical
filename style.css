@@ -332,3 +332,50 @@ input:focus {
     height: 190px;
     width: 180px;
 }
+
+/* Footer Styling */
+footer {
+    margin-top: 15px;
+    background-color: #172337;
+}
+
+.foot-panel {
+    padding: 20px;
+    padding-bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+
+}
+ .foot-heading {
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 10px;
+ }
+ ul a {
+    display: block;
+    margin-top: 10px;
+ }
+
+ ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .phone-no {
+    color: #2874f0;
+    cursor: pointer;
+ }
+
+ .mail-add p, .office-add p {
+    padding: 2px;
+
+ }
+
+ .foot-copyright {
+    padding: 15px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+ }
