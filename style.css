@@ -15,7 +15,7 @@ body {
     color: #f0f0f0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
   
 }
 
@@ -193,14 +193,15 @@ input:focus {
 }
 .product-add {
     display: flex;
-    justify-items: center;
-    gap: 20px;
-    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px auto 10px auto ;
 }
 .products-sec-1 {
     background-color: white;
     width: 1330px;
-    height: 344px;
+    height: 380px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
     
 }
@@ -212,7 +213,7 @@ input:focus {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
+    box-shadow: 0 1px 0 0 rgb(0 0 0/ 16%);
 }
 
 .title-text {
@@ -222,9 +223,17 @@ input:focus {
     padding: 16px;
 }
 
+.timer-icon {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #8b8a8a;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
 .sec-button {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 10px;
     text-align: center;
     box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
@@ -240,5 +249,86 @@ input:focus {
 
 .add-img {
     width: 227px;
-    height: 344px;
+    height: 380px;
+   
+}
+
+.product-collection {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.product-card {
+    min-width: 200px;
+    height: 252px;
+    margin: 10px;
+    transition: all;
+    padding: 6px;
+}
+
+.pro-img{
+    height: 210px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.pro-img:hover {
+    transform: scale(1.1);
+}
+
+.product-head {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: rgb(33,33,33);
+    word-spacing: 0px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.product-offer {
+    color: #388e3c;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.product-explore {
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    color: #8b8a8a;
+    word-spacing: 0px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.products-sec-2 {
+    margin: 0 auto;
+    background-color: white;
+    width: 1567px;
+    height: 375px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
+    
+}
+
+.sub-text {
+    display:flex;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #8b8a8a;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
+.img-resize {
+    height: 190px;
+    width: 180px;
 }
